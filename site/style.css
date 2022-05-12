@@ -1,0 +1,8 @@
+body {
+    background-color: #292929;
+    margin: 50px 80px 50px 80px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
