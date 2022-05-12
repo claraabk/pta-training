@@ -8,11 +8,19 @@ hr {
     height: 2px;
     background: #C4C4C4;
 }
+.container {
+    width: 100%;
+}
 .content {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin: 100px 70px 100px 70px;
+}
+
+.text-container {
+    height: 120px;
+    width: 600px;
 }
 
 #introduction {
@@ -31,4 +39,8 @@ hr {
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+#profile-picture {
+    text-align: center;
 }
