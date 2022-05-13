@@ -1,0 +1,52 @@
+body {
+    background-color: #292929;
+    margin: 50px 80px 50px 80px;
+}
+
+hr {
+    width: 1440px;
+    height: 2px;
+    background: #C4C4C4;
+}
+.container {
+    width: 100%;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 100px 70px 100px 70px;
+}
+
+.text-container {
+    height: 120px;
+    width: 600px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 130px 70px 130px;
+    justify-content: space-evenly;
+}
+#introduction {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+#description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#profile-picture {
+    text-align: center;
+}

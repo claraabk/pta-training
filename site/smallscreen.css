@@ -13,14 +13,16 @@ hr {
 }
 .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
     width: 100%;
     margin: 100px 70px 100px 70px;
 }
 
 .text-container {
+    padding: 10px;
     height: 120px;
-    width: 600px;
+    width: 100%;
 }
 
 #introduction {
